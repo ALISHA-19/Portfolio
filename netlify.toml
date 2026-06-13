@@ -1,0 +1,14 @@
+# Netlify build & deploy settings for this Vite + React SPA.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# SPA fallback: let React Router handle client-side routes
+# (e.g. /case-studies, /contact) instead of returning 404 on refresh.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
