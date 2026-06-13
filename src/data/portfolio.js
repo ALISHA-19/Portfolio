@@ -7,7 +7,7 @@ export const portfolioData = {
 
   // Public profiles
   linkedin: "https://www.linkedin.com/in/alisha-chaudhari-pm",
-  github: "https://github.com/AlishaChaudhari",
+  github: "https://github.com/ALISHA-19",
   portfolio: "https://ayuda.co.in/portfolio/alishachaudhari",
 
   metrics: [
